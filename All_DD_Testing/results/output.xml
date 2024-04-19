@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-18T17:58:17.288888" rpa="false" schemaversion="5">
+<suite id="s1" name="DD Database" source="C:\Users\AbdullahAmir\Documents\DataDrivenTesting\Data_Driven_Testing\All_DD_Testing\DD_Database.robot">
+<kw name="Connect To Database" owner="DatabaseLibrary" type="SETUP">
+<msg time="2024-04-18T17:58:17.334413" level="TRACE">Arguments: [ 'pymysql' | 'robotframework' | 'root' | 'root' | 'localhost' | '3306' ]</msg>
+<msg time="2024-04-18T17:58:17.356414" level="DEBUG">Connecting using : pymysql.connect(db=robotframework, user=root, passwd=root, host=localhost, port=3306) </msg>
+<msg time="2024-04-18T17:58:17.367485" level="TRACE">Return: None</msg>
+<arg>pymysql</arg>
+<arg>${DBName}</arg>
+<arg>${DBUser}</arg>
+<arg>${DBPass}</arg>
+<arg>${DBHost}</arg>
+<arg>${DBPort}</arg>
+<doc>Loads the DB API 2.0 module given `dbapiModuleName` then uses it to
+connect to the database using `dbName`, `dbUsername`, and `dbPassword`.</doc>
+<status status="PASS" start="2024-04-18T17:58:17.333414" elapsed="0.035003"/>
+</kw>
+<test id="s1-t1" name="Check David record present in Person Table" line="34">
+<kw name="Check If Exists In Database" owner="DatabaseLibrary">
+<msg time="2024-04-18T17:58:17.369413" level="TRACE">Arguments: [ 'select id from robotframework.person where first_name="David";' ]</msg>
+<msg time="2024-04-18T17:58:17.369413" level="DEBUG">Executing : select id from robotframework.person where first_name="David";</msg>
+<msg time="2024-04-18T17:58:17.370494" level="TRACE">Return: None</msg>
+<arg>select id from robotframework.person where first_name="David";</arg>
+<doc>Check if any row would be returned by given the input
+`selectStatement`. If there are no results, then this will
+throw an AssertionError.</doc>
+<status status="PASS" start="2024-04-18T17:58:17.368417" elapsed="0.002077"/>
+</kw>
+<status status="PASS" start="2024-04-18T17:58:17.368417" elapsed="0.002077"/>
+</test>
+<test id="s1-t2" name="Check Abdullah record Not present in Person Table" line="37">
+<kw name="Check If Not Exists In Database" owner="DatabaseLibrary">
+<msg time="2024-04-18T17:58:17.373411" level="TRACE">Arguments: [ 'select id from robotframework.person where first_name="Abdullah";' ]</msg>
+<msg time="2024-04-18T17:58:17.373411" level="DEBUG">Executing : select id from robotframework.person where first_name="Abdullah";</msg>
+<msg time="2024-04-18T17:58:17.374427" level="TRACE">Return: None</msg>
+<arg>select id from robotframework.person where first_name="Abdullah";</arg>
+<doc>This is the negation of `check_if_exists_in_database`.</doc>
+<status status="PASS" start="2024-04-18T17:58:17.373411" elapsed="0.001016"/>
+</kw>
+<status status="PASS" start="2024-04-18T17:58:17.372415" elapsed="0.002012"/>
+</test>
+<test id="s1-t3" name="Check Person table exists in my Database" line="40">
+<kw name="Table Must Exist" owner="DatabaseLibrary">
+<msg time="2024-04-18T17:58:17.377476" level="TRACE">Arguments: [ 'person' ]</msg>
+<msg time="2024-04-18T17:58:17.377476" level="DEBUG">Executing : SELECT * FROM information_schema.tables WHERE table_name='person'</msg>
+<msg time="2024-04-18T17:58:17.379412" level="TRACE">Return: None</msg>
+<arg>person</arg>
+<doc>Check if the table given exists in the database.</doc>
+<status status="PASS" start="2024-04-18T17:58:17.376407" elapsed="0.004117"/>
+</kw>
+<status status="PASS" start="2024-04-18T17:58:17.376407" elapsed="0.004117"/>
+</test>
+<test id="s1-t4" name="Verify Row Count is Zero" line="43">
+<kw name="Row Count Is 0" owner="DatabaseLibrary">
+<msg time="2024-04-18T17:58:17.382449" level="TRACE">Arguments: [ 'select * from robotframework.person where first_name = "Ali";' ]</msg>
+<msg time="2024-04-18T17:58:17.382449" level="DEBUG">Executing : select * from robotframework.person where first_name = "Ali";</msg>
+<msg time="2024-04-18T17:58:17.383557" level="TRACE">Return: None</msg>
+<arg>select * from robotframework.person where first_name = "Ali";</arg>
+<doc>Check if any rows are returned from the submitted `selectStatement`.
+If there are, then this will throw an AssertionError.</doc>
+<status status="PASS" start="2024-04-18T17:58:17.382449" elapsed="0.001108"/>
+</kw>
+<status status="PASS" start="2024-04-18T17:58:17.382449" elapsed="0.002109"/>
+</test>
+<test id="s1-t5" name="Verify Row Count is equal to some value" line="46">
+<kw name="Row Count Is Equal To X" owner="DatabaseLibrary">
+<msg time="2024-04-18T17:58:17.386456" level="TRACE">Arguments: [ 'select * from robotframework.person where first_name = "David";' | '1' ]</msg>
+<msg time="2024-04-18T17:58:17.386456" level="DEBUG">Executing : select * from robotframework.person where first_name = "David";</msg>
+<msg time="2024-04-18T17:58:17.387552" level="TRACE">Return: None</msg>
+<arg>select * from robotframework.person where first_name = "David";</arg>
+<arg>1</arg>
+<doc>Check if the number of rows returned from `selectStatement` is equal to
+the value submitted. If not, then this will throw an AssertionError.</doc>
+<status status="PASS" start="2024-04-18T17:58:17.386456" elapsed="0.001096"/>
+</kw>
+<status status="PASS" start="2024-04-18T17:58:17.386456" elapsed="0.002001"/>
+</test>
+<test id="s1-t6" name="Verify Row Count is Greater than some value" line="49">
+<kw name="Row Count Is Greater Than X" owner="DatabaseLibrary">
+<msg time="2024-04-18T17:58:17.390456" level="TRACE">Arguments: [ 'select * from robotframework.person where first_name = "David";' | '0' ]</msg>
+<msg time="2024-04-18T17:58:17.391455" level="DEBUG">Executing : select * from robotframework.person where first_name = "David";</msg>
+<msg time="2024-04-18T17:58:17.392459" level="TRACE">Return: None</msg>
+<arg>select * from robotframework.person where first_name = "David";</arg>
+<arg>0</arg>
+<doc>Check if the number of rows returned from `selectStatement` is greater
+than the value submitted. If not, then this will throw an AssertionError.</doc>
+<status status="PASS" start="2024-04-18T17:58:17.390456" elapsed="0.002003"/>
+</kw>
+<status status="PASS" start="2024-04-18T17:58:17.390456" elapsed="0.002003"/>
+</test>
+<test id="s1-t7" name="Verify Row Count is Less than some value" line="52">
+<kw name="Row Count Is Less Than X" owner="DatabaseLibrary">
+<msg time="2024-04-18T17:58:17.394456" level="TRACE">Arguments: [ 'select * from robotframework.person where first_name = "David";' | '2' ]</msg>
+<msg time="2024-04-18T17:58:17.394456" level="DEBUG">Executing : select * from robotframework.person where first_name = "David";</msg>
+<msg time="2024-04-18T17:58:17.396455" level="TRACE">Return: None</msg>
+<arg>select * from robotframework.person where first_name = "David";</arg>
+<arg>2</arg>
+<doc>Check if the number of rows returned from `selectStatement` is less
+than the value submitted. If not, then this will throw an AssertionError.</doc>
+<status status="PASS" start="2024-04-18T17:58:17.394456" elapsed="0.001999"/>
+</kw>
+<status status="PASS" start="2024-04-18T17:58:17.394456" elapsed="0.001999"/>
+</test>
+<test id="s1-t8" name="Update record in Person table" line="55">
+<kw name="Execute Sql String" owner="DatabaseLibrary">
+<msg time="2024-04-18T17:58:17.397962" level="TRACE">Arguments: [ 'Update robotframework.person set first_name="Amir" where id=104;' ]</msg>
+<msg time="2024-04-18T17:58:17.397962" level="DEBUG">Executing : Update robotframework.person set first_name="Amir" where id=104;</msg>
+<msg time="2024-04-18T17:58:17.399976" level="TRACE">Return: None</msg>
+<arg>Update robotframework.person set first_name="Amir" where id=104;</arg>
+<doc>Executes the sqlString as SQL commands.
+Useful to pass arguments to your sql.</doc>
+<status status="PASS" start="2024-04-18T17:58:17.397962" elapsed="0.002014"/>
+</kw>
+<status status="PASS" start="2024-04-18T17:58:17.397962" elapsed="0.002014"/>
+</test>
+<test id="s1-t9" name="Retrieve record from Person table" line="58">
+<kw name="Query" owner="DatabaseLibrary">
+<msg time="2024-04-18T17:58:17.401969" level="TRACE">Arguments: [ 'select * from robotframework.person;' ]</msg>
+<msg time="2024-04-18T17:58:17.401969" level="DEBUG">Executing : select * from robotframework.person;</msg>
+<msg time="2024-04-18T17:58:17.403098" level="TRACE">Return: ((101, 'John', 'Canady'),
+ (102, 'David', 'Canady'),
+ (103, 'Smith', 'Canady'),
+ (104, 'Amir', 'Canady'),
+ (105, 'Tye', 'Canady'))</msg>
+<msg time="2024-04-18T17:58:17.403098" level="INFO">@{queryResults} = [ (101, 'John', 'Canady') | (102, 'David', 'Canady') | (103, 'Smith', 'Canady') | (104, 'Amir', 'Canady') | (105, 'Tye', 'Canady') ]</msg>
+<var>@{queryResults}</var>
+<arg>select * from robotframework.person;</arg>
+<doc>Uses the input `selectStatement` to query for the values that
+will be returned as a list of tuples.</doc>
+<status status="PASS" start="2024-04-18T17:58:17.401969" elapsed="0.001129"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<msg time="2024-04-18T17:58:17.404071" level="FAIL">Keyword 'BuiltIn.Log To Console' expected 1 to 4 arguments, got 6.</msg>
+<arg>many</arg>
+<arg>@{queryResults}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="FAIL" start="2024-04-18T17:58:17.404071" elapsed="0.000000">Keyword 'BuiltIn.Log To Console' expected 1 to 4 arguments, got 6.</status>
+</kw>
+<status status="FAIL" start="2024-04-18T17:58:17.401969" elapsed="0.003026">Keyword 'BuiltIn.Log To Console' expected 1 to 4 arguments, got 6.</status>
+</test>
+<kw name="Disconnect From Database" owner="DatabaseLibrary" type="TEARDOWN">
+<msg time="2024-04-18T17:58:17.406968" level="TRACE">Arguments: [  ]</msg>
+<msg time="2024-04-18T17:58:17.406968" level="TRACE">Return: None</msg>
+<doc>Disconnects from the database.</doc>
+<status status="PASS" start="2024-04-18T17:58:17.406968" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-04-18T17:58:17.289817" elapsed="0.118154"/>
+</suite>
+<statistics>
+<total>
+<stat pass="8" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="8" fail="1" skip="0" id="s1" name="DD Database">DD Database</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
