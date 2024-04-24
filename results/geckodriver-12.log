@@ -1,0 +1,47 @@
+1713713617691	geckodriver	INFO	Listening on 127.0.0.1:23584
+1713713620763	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23585" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ABDULL~1\\AppData\\Local\\Temp\\rust_mozprofile3F6ikc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713713621046	Marionette	INFO	Marionette enabled
+1713713621116	Marionette	INFO	Listening on port 23595
+WebDriver BiDi listening on ws://127.0.0.1:23585
+Read port: 23595
+1713713621283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:23585/devtools/browser/d37ec106-7ce1-4867-b955-40c79c96dec3
+JavaScript warning: https://www.amazon.com/, line 1880: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1713713651065	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.amazon.com/s?k=TP-Link+N450+WiFi+Router+-+Wireless+Internet+Router+for+Home+%28TL-WR940N%29&crid=1O9SF8WOFKLG6&sprefix=%2Caps%2C279&ref=nb_sb_noss_2, line 5090: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Dual-band-Gigabit-WiFi-Internet-Router/dp/B08KJF5BS7/ref=sr_1_2?crid=1O9SF8WOFKLG6&dib=eyJ2IjoiMSJ9.QdWgopIKJJFsvL4DDwWKmVrIBncVhHR5XeNCrHeAA-kggf3w5D9J63yIBpZXhCZZ5Aa624N-NSiWTF1Jde1CtSxmDbVHaZqNQocMaVcIIb6PtIkj5VMgSYmat0wifT9PZALkTgvJdAWYPHgIBVv9PoCxA3jJjhIaotjgqjIiLHBFH3SZHpmUqSX95tDKMEep.32EdXmvlsrSELkdgleGh0A3I6aNrjTIeA-glFrUrgOk&dib_tag=se&keywords=TP-Link+N450+WiFi+Router+-+Wireless+Internet+Router+for+Home+%28TL-WR940N%29&qid=1713713654&sprefix=%2Caps%2C279&sr=8-2, line 11443: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1713713669243	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "Unable to find target with innerWindowId:6442450956"
+console.error: "Unable to find target with innerWindowId:6442450956"
+JavaScript warning: https://www.amazon.com/cart/add-to-cart/ref=dp_start-bbf_1_glance, line 3038: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:321:10
+
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal17179869185/domwalker20, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 105))
+console.error: "Unable to find target with innerWindowId:6442450959"
+console.error: "Unable to find target with innerWindowId:6442450959"
+console.error: "Unable to find target with innerWindowId:17179869185"
+1713713712338	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "Unable to find target with innerWindowId:6442450959"
+JavaScript warning: https://www.amazon.com/cart?ref_=sw_gtc, line 5214: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81FgcnELetL._RC|419fRIwP-FL.js_.js?AUIClients/InContextAuthBaseAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/cart?ref_=sw_gtc, line 5155: Script terminated by timeout at:
+l@https://www.amazon.com/cart?ref_=sw_gtc:5155:262
+EventListener.handleEvent*@https://www.amazon.com/cart?ref_=sw_gtc:5156:294
+@https://www.amazon.com/cart?ref_=sw_gtc:5156:482
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1713713808294	Marionette	INFO	Stopped listening on port 23595
+Dynamically enable window occlusion 1

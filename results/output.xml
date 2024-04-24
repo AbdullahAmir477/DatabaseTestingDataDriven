@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-21T20:42:19.900494" rpa="false" schemaversion="5">
+<suite id="s1" name="DataDriven" source="C:\Users\AbdullahAmir\Documents\DataDrivenTesting\Data_Driven_Testing\DataDriven.robot">
+<test id="s1-t1" name="TC 1 open the amazon website" line="34">
+<kw name="Given I open the amazaon website">
+<msg time="2024-04-21T20:42:20.119692" level="TRACE">Arguments: [  ]</msg>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-21T20:42:20.119692" level="TRACE">Arguments: [ 'https://www.amazon.com/' | 'Firefox' ]</msg>
+<msg time="2024-04-21T20:42:20.119692" level="INFO">Opening browser 'Firefox' to base url 'https://www.amazon.com/'.</msg>
+<msg time="2024-04-21T20:42:20.122697" level="TRACE">Firefox driver log is always forced to to: C:\Users\AbdullahAmir\Documents\DataDrivenTesting\Data_Driven_Testing\results\geckodriver-16.log</msg>
+<msg time="2024-04-21T20:42:20.133692" level="DEBUG">Selenium Manager binary found at: C:\Users\AbdullahAmir\Documents\DataDrivenTesting\Data_Driven_Testing\.venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe</msg>
+<msg time="2024-04-21T20:42:20.133692" level="DEBUG">Executing process: C:\Users\AbdullahAmir\Documents\DataDrivenTesting\Data_Driven_Testing\.venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser firefox --language-binding python --output json</msg>
+<msg time="2024-04-21T20:42:20.644224" level="DEBUG">Driver path: C:\Users\AbdullahAmir\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe</msg>
+<msg time="2024-04-21T20:42:20.644224" level="DEBUG">Browser path: C:\Program Files\Mozilla Firefox\firefox.exe</msg>
+<msg time="2024-04-21T20:42:20.644224" level="DEBUG">Using driver at: C:\Users\AbdullahAmir\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe</msg>
+<msg time="2024-04-21T20:42:20.687208" level="DEBUG">Started executable: `C:\Users\AbdullahAmir\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe` in a child process with pid: 26544 using 0 to output &lt;_io.TextIOWrapper name='C:\\Users\\AbdullahAmir\\Documents\\DataDrivenTesting\\Data_Driven_Testing\\results\\geckodriver-16.log' mode='a+' encoding='utf-8'&gt;</msg>
+<msg time="2024-04-21T20:42:21.724081" level="DEBUG">POST http://localhost:24722/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'firefox', 'acceptInsecureCerts': True, 'moz:debuggerAddress': True, 'pageLoadStrategy': &lt;PageLoadStrategy.normal: 'normal'&gt;, 'browserVersion': None, 'moz:firefoxOptions': {'binary': 'C:\\Program Files\\Mozilla Firefox\\firefox.exe', 'profile': 'UEsDBBQAAAAIAEqllViooscaewMAANkMAAAHAAAAdXNlci5qc6VWTW/UMBC9I/EfUE8gsVYL9AKn0hYJqaKoq4qj5diTjbuObezx...'}}}}</msg>
+<msg time="2024-04-21T20:42:21.724081" level="DEBUG">Starting new HTTP connection (1): localhost:24722</msg>
+<msg time="2024-04-21T20:42:27.183449" level="DEBUG">http://localhost:24722 "POST /session HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:27.183449" level="DEBUG">Remote response: status=200 | data={"value":{"sessionId":"f2c2da32-568f-461d-a2a7-da3e16e2e1e3","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"125.0.1","moz:accessibilityChecks":false,"moz:buildID":"20240416043247","moz:debuggerAddress":"127.0.0.1:24723","moz:geckodriverVersion":"0.34.0","moz:headless":false,"moz:platformVersion":"10.0","moz:processID":7416,"moz:profile":"C:\\Users\\ABDULL~1\\AppData\\Local\\Temp\\rust_mozprofile2YbhWj","moz:shutdownTimeout":60000,"moz:webdriverClick":true,"moz:windowless":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0"}}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '843', 'date': 'Sun, 21 Apr 2024 15:42:23 GMT'})</msg>
+<msg time="2024-04-21T20:42:27.183449" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:27.183449" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/timeouts {'script': 5000}</msg>
+<msg time="2024-04-21T20:42:27.187452" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/timeouts HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:27.187452" level="DEBUG">Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Sun, 21 Apr 2024 15:42:27 GMT'})</msg>
+<msg time="2024-04-21T20:42:27.187452" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:27.187452" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/timeouts {'implicit': 0}</msg>
+<msg time="2024-04-21T20:42:27.188450" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/timeouts HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:27.188450" level="DEBUG">Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Sun, 21 Apr 2024 15:42:27 GMT'})</msg>
+<msg time="2024-04-21T20:42:27.188450" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:27.188450" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/timeouts {'pageLoad': 300000}</msg>
+<msg time="2024-04-21T20:42:27.189474" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/timeouts HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:27.190981" level="DEBUG">Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Sun, 21 Apr 2024 15:42:27 GMT'})</msg>
+<msg time="2024-04-21T20:42:27.190981" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:27.190981" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/url {'url': 'https://www.amazon.com/'}</msg>
+<msg time="2024-04-21T20:42:31.589947" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/url HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:31.589947" level="DEBUG">Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Sun, 21 Apr 2024 15:42:27 GMT'})</msg>
+<msg time="2024-04-21T20:42:31.589947" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:31.589947" level="DEBUG">Opened browser with session id f2c2da32-568f-461d-a2a7-da3e16e2e1e3.</msg>
+<msg time="2024-04-21T20:42:31.589947" level="TRACE">Return: 1</msg>
+<arg>${Web_URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-21T20:42:20.119692" elapsed="11.470255"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2024-04-21T20:42:31.589947" level="TRACE">Arguments: [  ]</msg>
+<msg time="2024-04-21T20:42:31.590950" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/window/maximize {}</msg>
+<msg time="2024-04-21T20:42:31.876328" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/window/maximize HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:31.876328" level="DEBUG">Remote response: status=200 | data={"value":{"x":-7,"y":-7,"width":1550,"height":830}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '51', 'date': 'Sun, 21 Apr 2024 15:42:31 GMT'})</msg>
+<msg time="2024-04-21T20:42:31.876328" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:31.876328" level="TRACE">Return: None</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-04-21T20:42:31.589947" elapsed="0.286381"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-21T20:42:31.877333" level="TRACE">Arguments: [ '2s' ]</msg>
+<msg time="2024-04-21T20:42:33.877652" level="INFO">Slept 2 seconds.</msg>
+<msg time="2024-04-21T20:42:33.877652" level="TRACE">Return: None</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-21T20:42:31.877333" elapsed="2.000319"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T20:42:33.878601" level="TRACE">Arguments: [ 'id:twotabsearchtextbox' ]</msg>
+<msg time="2024-04-21T20:42:33.878601" level="INFO">Clicking element 'id:twotabsearchtextbox'.</msg>
+<msg time="2024-04-21T20:42:33.879618" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/elements {'using': 'css selector', 'value': '[id="twotabsearchtextbox"]'}</msg>
+<msg time="2024-04-21T20:42:33.894761" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/elements HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:33.894761" level="DEBUG">Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"285bffd0-e617-41f3-b5a1-da680adb2e26"}]} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '90', 'date': 'Sun, 21 Apr 2024 15:42:33 GMT'})</msg>
+<msg time="2024-04-21T20:42:33.894761" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:33.894761" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/element/285bffd0-e617-41f3-b5a1-da680adb2e26/click {}</msg>
+<msg time="2024-04-21T20:42:34.237702" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/element/285bffd0-e617-41f3-b5a1-da680adb2e26/click HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:34.237702" level="DEBUG">Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Sun, 21 Apr 2024 15:42:33 GMT'})</msg>
+<msg time="2024-04-21T20:42:34.237702" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:34.237702" level="TRACE">Return: None</msg>
+<arg>id:twotabsearchtextbox</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T20:42:33.877652" elapsed="0.360050"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-21T20:42:34.238705" level="TRACE">Arguments: [ 'twotabsearchtextbox' | 'TP-Link N450 WiFi Router - Wireless Internet Router for Home (TL-WR940N)' ]</msg>
+<msg time="2024-04-21T20:42:34.238705" level="INFO">Typing text 'TP-Link N450 WiFi Router - Wireless Internet Router for Home (TL-WR940N)' into text field 'twotabsearchtextbox'.</msg>
+<msg time="2024-04-21T20:42:34.238705" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/elements {'using': 'xpath', 'value': "//*[(@id='twotabsearchtextbox' or @name='twotabsearchtextbox')]"}</msg>
+<msg time="2024-04-21T20:42:34.245104" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/elements HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:34.245104" level="DEBUG">Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"285bffd0-e617-41f3-b5a1-da680adb2e26"}]} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '90', 'date': 'Sun, 21 Apr 2024 15:42:33 GMT'})</msg>
+<msg time="2024-04-21T20:42:34.245104" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:34.245104" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/element/285bffd0-e617-41f3-b5a1-da680adb2e26/clear {}</msg>
+<msg time="2024-04-21T20:42:34.249425" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/element/285bffd0-e617-41f3-b5a1-da680adb2e26/clear HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:34.249425" level="DEBUG">Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Sun, 21 Apr 2024 15:42:33 GMT'})</msg>
+<msg time="2024-04-21T20:42:34.249425" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:34.249425" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/element/285bffd0-e617-41f3-b5a1-da680adb2e26/value {'text': 'TP-Link N450 WiFi Router - Wireless Internet Router for Home (TL-WR940N)', 'value': ['T', 'P', '-', 'L', 'i', 'n', 'k', ' ', 'N', '4', '5', '0', ' ', 'W', 'i', 'F', 'i', ' ', 'R', 'o', 'u', 't', 'e', 'r', ' ', '-', ' ', 'W', 'i', 'r', 'e', 'l', 'e', 's', 's', ' ', 'I', 'n', 't', 'e', 'r', 'n', 'e', 't', ' ', 'R', 'o', 'u', 't', 'e', 'r', ' ', 'f', 'o', 'r', ' ', 'H', 'o', 'm', 'e', ' ', '(', 'T', 'L', '-', 'W', 'R', '9', '4', '0', 'N', ')']}</msg>
+<msg time="2024-04-21T20:42:34.472282" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/element/285bffd0-e617-41f3-b5a1-da680adb2e26/value HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:34.472282" level="DEBUG">Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Sun, 21 Apr 2024 15:42:33 GMT'})</msg>
+<msg time="2024-04-21T20:42:34.472282" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:34.472282" level="TRACE">Return: None</msg>
+<arg>twotabsearchtextbox</arg>
+<arg>TP-Link N450 WiFi Router - Wireless Internet Router for Home (TL-WR940N)</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T20:42:34.237702" elapsed="0.234580"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T20:42:34.472282" level="TRACE">Arguments: [ 'id:nav-search-submit-button' ]</msg>
+<msg time="2024-04-21T20:42:34.472282" level="INFO">Clicking element 'id:nav-search-submit-button'.</msg>
+<msg time="2024-04-21T20:42:34.473301" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/elements {'using': 'css selector', 'value': '[id="nav-search-submit-button"]'}</msg>
+<msg time="2024-04-21T20:42:34.478283" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/elements HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:34.478283" level="DEBUG">Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"b44fd4cb-ad4c-41cc-b24b-f7eb3794613e"}]} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '90', 'date': 'Sun, 21 Apr 2024 15:42:33 GMT'})</msg>
+<msg time="2024-04-21T20:42:34.478283" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:34.478283" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/element/b44fd4cb-ad4c-41cc-b24b-f7eb3794613e/click {}</msg>
+<msg time="2024-04-21T20:42:38.364118" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/element/b44fd4cb-ad4c-41cc-b24b-f7eb3794613e/click HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:38.364118" level="DEBUG">Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Sun, 21 Apr 2024 15:42:33 GMT'})</msg>
+<msg time="2024-04-21T20:42:38.364118" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:38.364118" level="TRACE">Return: None</msg>
+<arg>id:nav-search-submit-button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T20:42:34.472282" elapsed="3.891836"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-21T20:42:38.364118" level="TRACE">Arguments: [ '4s' ]</msg>
+<msg time="2024-04-21T20:42:42.365605" level="INFO">Slept 4 seconds.</msg>
+<msg time="2024-04-21T20:42:42.365605" level="TRACE">Return: None</msg>
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-21T20:42:38.364118" elapsed="4.001487"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T20:42:42.366112" level="TRACE">Arguments: [ 'xpath:/html/body/div[1]/div[1]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/span/div/div/div/div[2]/div/div/div[1]/h2/a/span' ]</msg>
+<msg time="2024-04-21T20:42:42.366112" level="INFO">Clicking element 'xpath:/html/body/div[1]/div[1]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/span/div/div/div/div[2]/div/div/div[1]/h2/a/span'.</msg>
+<msg time="2024-04-21T20:42:42.366112" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/elements {'using': 'xpath', 'value': '/html/body/div[1]/div[1]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/span/div/div/div/div[2]/div...'}</msg>
+<msg time="2024-04-21T20:42:42.371119" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/elements HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:42.371119" level="DEBUG">Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"216e5cc1-699b-431a-bf3d-65ca7fb4f9d0"}]} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '90', 'date': 'Sun, 21 Apr 2024 15:42:42 GMT'})</msg>
+<msg time="2024-04-21T20:42:42.371119" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:42.371119" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/element/216e5cc1-699b-431a-bf3d-65ca7fb4f9d0/click {}</msg>
+<msg time="2024-04-21T20:42:47.909651" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/element/216e5cc1-699b-431a-bf3d-65ca7fb4f9d0/click HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:47.909651" level="DEBUG">Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Sun, 21 Apr 2024 15:42:42 GMT'})</msg>
+<msg time="2024-04-21T20:42:47.909651" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:47.909651" level="TRACE">Return: None</msg>
+<arg>xpath:/html/body/div[1]/div[1]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/span/div/div/div/div[2]/div/div/div[1]/h2/a/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T20:42:42.365605" elapsed="5.544046"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T20:42:47.911163" level="TRACE">Arguments: [ 'id:add-to-cart-button' ]</msg>
+<msg time="2024-04-21T20:42:47.911163" level="INFO">Clicking element 'id:add-to-cart-button'.</msg>
+<msg time="2024-04-21T20:42:47.911163" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/elements {'using': 'css selector', 'value': '[id="add-to-cart-button"]'}</msg>
+<msg time="2024-04-21T20:42:47.923495" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/elements HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:42:47.925002" level="DEBUG">Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"855397e9-935a-416f-a5bf-24543b13328c"}]} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '90', 'date': 'Sun, 21 Apr 2024 15:42:47 GMT'})</msg>
+<msg time="2024-04-21T20:42:47.925002" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:42:47.925002" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/element/855397e9-935a-416f-a5bf-24543b13328c/click {}</msg>
+<msg time="2024-04-21T20:43:30.662591" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/element/855397e9-935a-416f-a5bf-24543b13328c/click HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:43:30.662591" level="DEBUG">Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Sun, 21 Apr 2024 15:42:47 GMT'})</msg>
+<msg time="2024-04-21T20:43:30.662591" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:43:30.663591" level="TRACE">Return: None</msg>
+<arg>id:add-to-cart-button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T20:42:47.909651" elapsed="42.753940"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T20:43:30.663591" level="TRACE">Arguments: [ 'xpath://*[@id="sw-gtc"]/span/a' ]</msg>
+<msg time="2024-04-21T20:43:30.663591" level="INFO">Clicking element 'xpath://*[@id="sw-gtc"]/span/a'.</msg>
+<msg time="2024-04-21T20:43:30.663591" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/elements {'using': 'xpath', 'value': '//*[@id="sw-gtc"]/span/a'}</msg>
+<msg time="2024-04-21T20:43:30.671622" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/elements HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:43:30.671622" level="DEBUG">Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"d6c149e3-0722-4b6c-a6ff-0217581c3cf6"}]} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '90', 'date': 'Sun, 21 Apr 2024 15:43:30 GMT'})</msg>
+<msg time="2024-04-21T20:43:30.671622" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:43:30.671622" level="DEBUG">POST http://localhost:24722/session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/element/d6c149e3-0722-4b6c-a6ff-0217581c3cf6/click {}</msg>
+<msg time="2024-04-21T20:43:33.167026" level="DEBUG">http://localhost:24722 "POST /session/f2c2da32-568f-461d-a2a7-da3e16e2e1e3/element/d6c149e3-0722-4b6c-a6ff-0217581c3cf6/click HTTP/1.1" 200 0</msg>
+<msg time="2024-04-21T20:43:33.168017" level="DEBUG">Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Sun, 21 Apr 2024 15:43:30 GMT'})</msg>
+<msg time="2024-04-21T20:43:33.168017" level="DEBUG">Finished Request</msg>
+<msg time="2024-04-21T20:43:33.168017" level="TRACE">Return: None</msg>
+<arg>xpath://*[@id="sw-gtc"]/span/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T20:43:30.663591" elapsed="2.504426"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-21T20:43:33.168017" level="TRACE">Arguments: [ '3s' ]</msg>
+<msg time="2024-04-21T20:43:36.168578" level="INFO">Slept 3 seconds.</msg>
+<msg time="2024-04-21T20:43:36.168578" level="TRACE">Return: None</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-21T20:43:33.168017" elapsed="3.000561"/>
+</kw>
+<msg time="2024-04-21T20:43:36.168578" level="TRACE">Return: None</msg>
+<status status="PASS" start="2024-04-21T20:42:20.119692" elapsed="76.048886"/>
+</kw>
+<status status="PASS" start="2024-04-21T20:42:20.117690" elapsed="76.051826"/>
+</test>
+<status status="PASS" start="2024-04-21T20:42:19.901603" elapsed="76.268921"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="DataDriven">DataDriven</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

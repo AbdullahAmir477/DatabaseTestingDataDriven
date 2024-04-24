@@ -1,0 +1,25 @@
+1713713816659	geckodriver	INFO	Listening on 127.0.0.1:23920
+1713713819720	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23921" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ABDULL~1\\AppData\\Local\\Temp\\rust_mozprofileI5hfsm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713713820025	Marionette	INFO	Marionette enabled
+1713713820124	Marionette	INFO	Listening on port 23930
+WebDriver BiDi listening on ws://127.0.0.1:23921
+Read port: 23930
+1713713820358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:23921/devtools/browser/aff99544-f525-4873-9f4b-cae1ede3f3bf
+JavaScript warning: https://www.amazon.com/, line 1865: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/81MTK5Efc4L.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/s?k=TP-Link+N450+WiFi+Router+-+Wireless+Internet+Router+for+Home+%28TL-WR940N%29&crid=1X8NLJ17F4FJD&sprefix=tp-link+n450+wifi+router+-+wireless+internet+router+for+home+tl-wr940%2Caps%2C395&ref=nb_sb_noss_2, line 5178: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/TP-Link-AX5400-Archer-AX72-Pro/dp/B0BTT3F159/ref=sr_1_2?crid=1X8NLJ17F4FJD&dib=eyJ2IjoiMSJ9.hQHdcrBE4N42q17xONwuvvPQCU5lVEDMtCQYRdPOhHIjyVdNCfbsRv1yAY2q_m40zvGYqz9OPAI8MAeTA9odgS7ohNhJGHCROptlZq66DQ04gMpcHaxM7zBIcO0PbUsmDgT8-YBdXlO0BtzTOrLkroKVKm3Pjcc4levRL0GQnlWeEe5Awmck62BCvsUADIcc.hT06mh29rZ1c7EpbJkCq0MA_5WDrrU9p4ihZWBF_c80&dib_tag=se&keywords=TP-Link+N450+WiFi+Router+-+Wireless+Internet+Router+for+Home+%28TL-WR940N%29&qid=1713713834&sprefix=tp-link+n450+wifi+router+-+wireless+internet+router+for+home+tl-wr940%2Caps%2C395&sr=8-2, line 11014: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1713713850126	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.amazon.com/cart/add-to-cart/ref=dp_start-bbf_1_glance, line 3038: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1713713893420	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.amazon.com/cart?ref_=sw_gtc, line 5246: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81FgcnELetL._RC|419fRIwP-FL.js_.js?AUIClients/InContextAuthBaseAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/cart?ref_=sw_gtc, line 5187: Script terminated by timeout at:
+l@https://www.amazon.com/cart?ref_=sw_gtc:5187:262
+
+1713713926685	Marionette	INFO	Stopped listening on port 23930
+Dynamically enable window occlusion 1

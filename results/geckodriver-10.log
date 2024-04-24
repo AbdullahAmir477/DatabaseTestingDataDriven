@@ -1,0 +1,27 @@
+1713712923010	geckodriver	INFO	Listening on 127.0.0.1:22719
+1713712926090	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "22720" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ABDULL~1\\AppData\\Local\\Temp\\rust_mozprofileyAeLC8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713712926467	Marionette	INFO	Marionette enabled
+1713712926546	Marionette	INFO	Listening on port 22729
+WebDriver BiDi listening on ws://127.0.0.1:22720
+Read port: 22729
+1713712926729	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:22720/devtools/browser/6ff202b8-11da-499e-98d4-02ddb8e6661f
+JavaScript warning: https://www.amazon.com/, line 1865: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/s?k=TP-Link+N450+WiFi+Router+-+Wireless+Internet+Router+for+Home+%28TL-WR940N%29&crid=15H31MOF0BFS6&sprefix=%2Caps%2C296&ref=nb_sb_noss_2, line 5123: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/81MTK5Efc4L.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1713712956502	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51ExhNVPbdL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01cS+tLhj4L.js,11rRjDLdAVL.js,51UOrPXYGsL.js,11nAhXzgUmL.js,11UNP9ncXuL.js,1174TO1N7GL.js,11uo7qXoO3L.js,01VhK3jZdbL.js,21paGe30x-L.js,01490L6yBnL.js,512ZCVSd+aL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ktRCtOqKL.js,216zYxN25iL.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,015noyTOBjL.js_.js?AUIClients/AmazonUI&WOBvLLbH#786834-T1, line 40: Script terminated by timeout at:
+e@https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51ExhNVPbdL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01cS+tLhj4L.js,11rRjDLdAVL.js,51UOrPXYGsL.js,11nAhXzgUmL.js,11UNP9ncXuL.js,1174TO1N7GL.js,11uo7qXoO3L.js,01VhK3jZdbL.js,21paGe30x-L.js,01490L6yBnL.js,512ZCVSd+aL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ktRCtOqKL.js,216zYxN25iL.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,015noyTOBjL.js_.js?AUIClients/AmazonUI&WOBvLLbH#786834-T1:40:358
+u@https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51ExhNVPbdL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01cS+tLhj4L.js,11rRjDLdAVL.js,51UOrPXYGsL.js,11nAhXzgUmL.js,11UNP9ncXuL.js,1174TO1N7GL.js,11uo7qXoO3L.js,01VhK3jZdbL.js,21paGe30x-L.js,01490L6yBnL.js,512ZCVSd+aL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ktRCtOqKL.js,216zYxN25iL.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,015noyTOBjL.js_.js?AUIClients/AmazonUI&WOBvLLbH#786834-T1:41:336
+@https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51ExhNVPbdL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01cS+tLhj4L.js,11rRjDLdAVL.js,51UOrPXYGsL.js,11nAhXzgUmL.js,11UNP9ncXuL.js,1174TO1N7GL.js,11uo7qXoO3L.js,01VhK3jZdbL.js,21paGe30x-L.js,01490L6yBnL.js,512ZCVSd+aL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ktRCtOqKL.js,216zYxN25iL.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,015noyTOBjL.js_.js?AUIClients/AmazonUI&WOBvLLbH#786834-T1:44:466
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1713713513708	Marionette	INFO	Stopped listening on port 22729
+Dynamically enable window occlusion 1

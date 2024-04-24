@@ -1,0 +1,44 @@
+1713712095289	geckodriver	INFO	Listening on 127.0.0.1:20885
+1713712098347	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "20886" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ABDULL~1\\AppData\\Local\\Temp\\rust_mozprofileFMrYlU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713712099028	Marionette	INFO	Marionette enabled
+1713712099146	Marionette	INFO	Listening on port 20896
+WebDriver BiDi listening on ws://127.0.0.1:20886
+Read port: 20896
+1713712099455	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:20886/devtools/browser/167d081b-5e8c-42d8-8242-cec98bb1c973
+JavaScript warning: https://www.amazon.com/, line 1865: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/s?k=TP-Link+N450+WiFi+Router+-+Wireless+Internet+Router+for+Home+%28TL-WR940N%29&crid=1S2G9629E58MO&sprefix=%2Caps%2C328&ref=nb_sb_noss_2, line 3088: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1713712129070	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://m.media-amazon.com/images/I/81MTK5Efc4L.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:465:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:429:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2208:33
+addAllSources@resource://devtools/server/actors/thread.js:1528:14
+watch@resource://devtools/server/actors/resources/sources.js:81:17
+watchResources@resource://devtools/server/actors/resources/index.js:340:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:54:23
+_addOrSetSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:544:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:446:21
+Line: 719, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: Failed to open input source 'file:///'
+JavaScript warning: https://www.amazon.com/s?k=TP-Link+N450+WiFi+Router+-+Wireless+Internet+Router+for+Home+%28TL-WR940N%29&crid=1S2G9629E58MO&sprefix=%2Caps%2C328&ref=nb_sb_noss_2, line 3029: Script terminated by timeout at:
+l@https://www.amazon.com/s?k=TP-Link+N450+WiFi+Router+-+Wireless+Internet+Router+for+Home+%28TL-WR940N%29&crid=1S2G9629E58MO&sprefix=%2Caps%2C328&ref=nb_sb_noss_2:3029:262
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1713712241432	Marionette	INFO	Stopped listening on port 20896
+Dynamically enable window occlusion 1
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."

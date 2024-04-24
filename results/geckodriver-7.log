@@ -1,0 +1,25 @@
+1713712476483	geckodriver	INFO	Listening on 127.0.0.1:21821
+1713712479519	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "21822" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ABDULL~1\\AppData\\Local\\Temp\\rust_mozprofilep2uQHT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713712480245	Marionette	INFO	Marionette enabled
+1713712480324	Marionette	INFO	Listening on port 21831
+Read port: 21831
+WebDriver BiDi listening on ws://127.0.0.1:21822
+1713712480394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:21822/devtools/browser/48fe6c40-20c7-49aa-84c2-7f84e4e0d4ed
+JavaScript warning: https://www.amazon.com/, line 1866: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/s?k=TP-Link+N450+WiFi+Router+-+Wireless+Internet+Router+for+Home+%28TL-WR940N%29&ref=nb_sb_noss, line 3086: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Dual-band-Gigabit-WiFi-Internet-Router/dp/B08KJF5BS7/ref=sr_1_1?dib=eyJ2IjoiMSJ9.799wCwulAWHnHOlJTeMA4IbdhMeT9XcMJNOidWtbRGzT6y0tlUazb69QDyCkjRIA.riZt0D0szVj469ZCGGf0xRTz48HSROaEBfs7E49nnzA&dib_tag=se&keywords=TP-Link+N450+WiFi+Router+-+Wireless+Internet+Router+for+Home+%28TL-WR940N%29&qid=1713712490&sr=8-1, line 11449: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1713712510287	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://m.media-amazon.com/images/I/81MTK5Efc4L.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Dual-band-Gigabit-WiFi-Internet-Router/dp/B08KJF5BS7/ref=sr_1_1?dib=eyJ2IjoiMSJ9.799wCwulAWHnHOlJTeMA4IbdhMeT9XcMJNOidWtbRGzT6y0tlUazb69QDyCkjRIA.riZt0D0szVj469ZCGGf0xRTz48HSROaEBfs7E49nnzA&dib_tag=se&keywords=TP-Link+N450+WiFi+Router+-+Wireless+Internet+Router+for+Home+%28TL-WR940N%29&qid=1713712490&sr=8-1, line 11390: Script terminated by timeout at:
+l@https://www.amazon.com/Dual-band-Gigabit-WiFi-Internet-Router/dp/B08KJF5BS7/ref=sr_1_1?dib=eyJ2IjoiMSJ9.799wCwulAWHnHOlJTeMA4IbdhMeT9XcMJNOidWtbRGzT6y0tlUazb69QDyCkjRIA.riZt0D0szVj469ZCGGf0xRTz48HSROaEBfs7E49nnzA&dib_tag=se&keywords=TP-Link+N450+WiFi+Router+-+Wireless+Internet+Router+for+Home+%28TL-WR940N%29&qid=1713712490&sr=8-1:11390:262
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1713712559246	Marionette	INFO	Stopped listening on port 21831
+Dynamically enable window occlusion 1

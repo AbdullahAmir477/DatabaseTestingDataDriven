@@ -1,0 +1,21 @@
+1713714140699	geckodriver	INFO	Listening on 127.0.0.1:24722
+1713714143796	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24723" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ABDULL~1\\AppData\\Local\\Temp\\rust_mozprofile2YbhWj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713714144632	Marionette	INFO	Marionette enabled
+1713714144768	Marionette	INFO	Listening on port 24732
+WebDriver BiDi listening on ws://127.0.0.1:24723
+Read port: 24732
+1713714145068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:24723/devtools/browser/f75f5844-1dbd-440c-b78a-11098644d3e3
+JavaScript warning: https://www.amazon.com/, line 1871: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=TP-Link+N450+WiFi+Router+-+Wireless+Internet+Router+for+Home+%28TL-WR940N%29&crid=2EIPJBN1JJ24Z&sprefix=%2Caps%2C545, line 4646: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/TP-Link-AX5400-Archer-AX72-Pro/dp/B0BTT3F159/ref=sr_1_2?crid=2EIPJBN1JJ24Z&dib=eyJ2IjoiMSJ9.hQHdcrBE4N42q17xONwuvvPQCU5lVEDMtCQYRdPOhHIggf3w5D9J63yIBpZXhCZZ5Aa624N-NSiWTF1Jde1CtSxmDbVHaZqNQocMaVcIIb6PtIkj5VMgSYmat0wifT9PZALkTgvJdAWYPHgIBVv9PoCxA3jJjhIaotjgqjIiLHBFH3SZHpmUqSX95tDKMEep.UkfRXry2aeRQN7IpxFgLVBKJkJFyry2hcmUBDW2JmOw&dib_tag=se&keywords=TP-Link+N450+WiFi+Router+-+Wireless+Internet+Router+for+Home+%28TL-WR940N%29&qid=1713714155&sprefix=%2Caps%2C545&sr=8-2, line 11039: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1713714168770	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1713714174646	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.amazon.com/cart/add-to-cart/ref=dp_start-bbf_1_glance, line 3059: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/cart?ref_=sw_gtc, line 5252: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81FgcnELetL._RC|419fRIwP-FL.js_.js?AUIClients/InContextAuthBaseAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1713719825494	Marionette	INFO	Stopped listening on port 24732
+Dynamically enable window occlusion 1

@@ -5,29 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e85075-1ed3-4647-b542-df9a5111934d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Data_Driven_Testing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/RobotProjectPreferences.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_DD_Testing/Common.resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_DD_Testing/DD_CSV.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_DD_Testing/DD_Database.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_DD_Testing/DD_Excel.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_DD_Testing/TestData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_DD_Testing/TestData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_DD_Testing/database_person.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_DD_Testing/results/log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_DD_Testing/results/output.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_DD_Testing/results/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_DD_Testing/results/selenium-screenshot-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataDriven.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/output.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-3.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-4.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-5.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-6.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-7.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-8.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/geckodriver-9.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/output.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/selenium-screenshot-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/selenium-screenshot-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/selenium-screenshot-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/selenium-screenshot-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/selenium-screenshot-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/selenium-screenshot-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/selenium-screenshot-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/selenium-screenshot-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/selenium-screenshot-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/selenium-screenshot-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/selenium-screenshot-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Data_Driven_Testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data_Driven_Testing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataDriven.robot" beforeDir="false" afterPath="$PROJECT_DIR$/DataDriven.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +53,22 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_COMMON_BRANCH" value="DatabaseConnect" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AbdullahAmir477"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="37e4eeae-51b5-4229-9b47-85955e2c4d99" />
+        <option name="url" value="https://github.com/AbdullahAmir477/DatabaseTestingDataDriven.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,17 +84,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Robot Framework.run current file.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;robocorp.robot.intellij.RobotPreferencesPage&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Robot Framework.run current file.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "DatabaseConnect",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RobotOptionsProvider">
+    <option name="c" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Data_Driven_Testing" />
@@ -110,6 +139,29 @@
       <updated>1713335875258</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/DatabaseConnect" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
